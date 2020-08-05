@@ -1,0 +1,10 @@
+adminUser:
+  password: local:jx-pipe/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: karthick.k@firstlight.ai
+  token: local:jx-pipe/pipelineUser:token
+  username: karthickkulandaivelu
+prow:
+  hmacToken: local:jx-pipe/prow:hmacToken
