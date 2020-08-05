@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: edge-service
+    provider: github
+    repository: jx-test1
+  name: edge-service-jx-test1
+spec:
+  description: Imported application for edge-service/jx-test1
+  httpCloneURL: https://github.com/edge-service/jx-test1.git
+  org: edge-service
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-test1
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/edge-service/jx-test1.git
