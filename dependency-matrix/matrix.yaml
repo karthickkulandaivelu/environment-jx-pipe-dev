@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: edge-service
-  repo: jx-test1
-  url: https://github.com/edge-service/jx-test1.git
+  repo: metadata-service
+  url: https://github.com/edge-service/metadata-service.git
   version: ""
   versionURL: ""

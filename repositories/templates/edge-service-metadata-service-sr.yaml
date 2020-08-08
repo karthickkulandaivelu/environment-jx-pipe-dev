@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: edge-service
+    provider: github
+    repository: metadata-service
+  name: edge-service-metadata-service
+spec:
+  description: Imported application for edge-service/metadata-service
+  httpCloneURL: https://github.com/edge-service/metadata-service.git
+  org: edge-service
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: metadata-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/edge-service/metadata-service.git
