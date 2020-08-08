@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: edge-service
+    provider: github
+    repository: storefront-service
+  name: edge-service-storefront-service
+spec:
+  description: Imported application for edge-service/storefront-service
+  httpCloneURL: https://github.com/edge-service/storefront-service.git
+  org: edge-service
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: storefront-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/edge-service/storefront-service.git

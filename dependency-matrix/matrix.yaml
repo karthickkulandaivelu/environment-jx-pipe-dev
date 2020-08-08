@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: edge-service
-  repo: metadata-service
-  url: https://github.com/edge-service/metadata-service.git
+  repo: storefront-service
+  url: https://github.com/edge-service/storefront-service.git
   version: ""
   versionURL: ""
